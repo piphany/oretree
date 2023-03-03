@@ -1,9 +1,9 @@
 package net.piphany.oretree;
 
 import net.fabricmc.api.ModInitializer;
-//import net.piphany.oretree.block.ModBlocks;
-//import net.piphany.oretree.item.ModItemGroup;
-//import net.piphany.oretree.item.ModItems;
+import net.piphany.oretree.block.ModBlocks;
+import net.piphany.oretree.item.ModItemGroup;
+import net.piphany.oretree.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,8 +13,8 @@ public class OreTree implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-	//	ModItemGroup.registerItemGroups();
-	//	ModBlocks.registerModBlocks();
-	//	ModItems.registerModItems();
+	ModItemGroup.registerItemGroups();
+	ModBlocks.registerModBlocks();
+	ModItems.registerModItems();
 	}
 }

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "sliver_ingot",
+  "ingredient": {
+    "item": "oretree:raw_sliver"
+  },
+  "result": "oretree:sliver_ingot"
+}

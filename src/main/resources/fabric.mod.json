@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "oretree",
+	"version": "${version}",
+	"name": "OreTree",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"piphany"
+	],
+	"contact": {
+		"homepage": "https://github.com/piphany",
+		"sources": "https://github.com/piphany/oretree"
+	},
+	"license": "MIT",
+	"icon": "assets/oretree/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.piphany.oretree.OreTree"
+		],
+		"client":[
+			"net.piphany.oretree.OreTreeClient"
+		],
+		"fabric-datagen": [
+			"net.piphany.oretree.OreTreeDataGenerator"
+		]
+	},
+	"mixins": [
+		"oretree.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.14",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

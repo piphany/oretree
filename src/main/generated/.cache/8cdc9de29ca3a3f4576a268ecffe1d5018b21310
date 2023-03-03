@@ -1,6 +1,12 @@
-// 1.19.3	2023-03-03T14:00:58.4805515	OreTree/Model Definitions
+// 1.19.3	2023-03-03T19:38:30.9545405	OreTree/Model Definitions
 c99677663ad8c448afdb7fab6c15ff95df44cf2e assets\oretree\blockstates\sliver_ore.json
+5503153288be3621c6939f5aa4b5af0b8ebf6b9a assets\oretree\models\item\coal_ore_leaves.json
 930f5734ee918f661cb2ce64b6ec9824e3df0944 assets\oretree\models\item\sliver_ore.json
+3dba8a4f27a632c2fdd179b404ea7efd5e562a89 assets\oretree\models\block\coal_ore_sapling.json
+0a959a48d3bba2ad917bb6d81e2b5807f65c236c assets\oretree\blockstates\coal_ore_leaves.json
+2746c986aa09710b32d7b698ff84ee11d2218369 assets\oretree\blockstates\coal_ore_sapling.json
 483060960edd731a1e5ea9608490e6937f51f67a assets\oretree\models\item\raw_sliver.json
 41dc65fdfa5e793a7147840746391203673a4303 assets\oretree\models\block\sliver_ore.json
 13a14c14365a39ea7e8ff3e94267f905129e72a3 assets\oretree\models\item\sliver_ingot.json
+4ea783af7450934143207b271eecd55fe48e9ca4 assets\oretree\models\block\coal_ore_leaves.json
+b2a13c2f9bb9ca571f79502b1cd95cba94718c91 assets\oretree\models\item\coal_ore_sapling.json

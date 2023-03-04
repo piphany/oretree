@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "oretree:block/nether_quartz_ore_leaves"
+  }
+}

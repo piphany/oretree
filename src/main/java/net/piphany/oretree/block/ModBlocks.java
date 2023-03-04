@@ -12,7 +12,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.piphany.oretree.OreTree;
 import net.piphany.oretree.item.ModItemGroup;
-import net.piphany.oretree.world.tree.CoalOreTreeSaplingGenerator;
+import net.piphany.oretree.world.tree.*;
 
 public class ModBlocks {
     //添加新方块
@@ -20,44 +20,44 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.OreTrees);
     public static final Block Coal_Ore_Leaves=registerBlock("coal_ore_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Cooper_Ore_Leaves=registerBlock("cooper_ore_leaves",
-   //         new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Diamond_Ore_Leaves=registerBlock("diamond_ore_leaves",
-   //         new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Emerald_Ore_Leaves=registerBlock("emerald_ore_leaves",
-   //         new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Gold_Ore_Leaves=registerBlock("gold_ore_leaves",
-   //         new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Iron_Ore_Leaves=registerBlock("iron_ore_leaves",
-   //         new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Lapis_Lazuli_Ore_Leaves=registerBlock("lapis_lazuli_ore_leaves",
-   //         new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Nether_Quartz_Ore_Leaves=registerBlock("nether_quartz_ore_leaves",
-   //         new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Redstone_Ore_Leaves=registerBlock("redstone_ore_leaves",
-   //         new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Sliver_Ore_Leaves=registerBlock("sliver_ore_leaves",
-   //         new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+    public static final Block Copper_Ore_Leaves=registerBlock("copper_ore_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+    public static final Block Diamond_Ore_Leaves=registerBlock("diamond_ore_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+    public static final Block Emerald_Ore_Leaves=registerBlock("emerald_ore_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+    public static final Block Gold_Ore_Leaves=registerBlock("gold_ore_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+    public static final Block Iron_Ore_Leaves=registerBlock("iron_ore_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+    public static final Block Lapis_Lazuli_Ore_Leaves=registerBlock("lapis_lazuli_ore_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+    public static final Block Nether_Quartz_Ore_Leaves=registerBlock("nether_quartz_ore_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+    public static final Block Redstone_Ore_Leaves=registerBlock("redstone_ore_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+    public static final Block Sliver_Ore_Leaves=registerBlock("sliver_ore_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
      public static final Block Coal_Ore_Sapling=registerBlock("coal_ore_sapling",
-            new SaplingBlock(new CoalOreTreeSaplingGenerator(),FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Cooper_Ore_Sapling=registerBlock("cooper_ore_sapling",
-   //         new SaplingBlock(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Diamond_Ore_Sapling=registerBlock("diamond_ore_sapling",
-   //         new SaplingBlock(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Emerald_Ore_Sapling=registerBlock("emerald_ore_sapling",
-   //         new SaplingBlock(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Gold_Ore_Sapling=registerBlock("gold_ore_sapling",
-   //         new SaplingBlock(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Iron_Ore_Sapling=registerBlock("iron_ore_sapling",
-   //         new SaplingBlock(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Lapis_Lazuli_Ore_Sapling=registerBlock("lapis_lazuli_ore_sapling",
-   //         new SaplingBlock(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Nether_Quartz_Ore_Sapling=registerBlock("nether_quartz_ore_sapling",
-   //         new SaplingBlock(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Redstone_Ore_Sapling=registerBlock("redstone_ore_sapling",
-   //         new SaplingBlock(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
-   // public static final Block Sliver_Ore_Sapling=registerBlock("sliver_ore_sapling",
-   //         new SaplingBlock(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+             new SaplingBlock(new CoalOreTreeSaplingGenerator(),FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+     public static final Block Copper_Ore_Sapling=registerBlock("copper_ore_sapling",
+             new SaplingBlock(new CopperOreTreeSaplingGenerator(),FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+     public static final Block Diamond_Ore_Sapling=registerBlock("diamond_ore_sapling",
+             new SaplingBlock(new DiamondOreTreeSaplingGenerator(),FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+     public static final Block Emerald_Ore_Sapling=registerBlock("emerald_ore_sapling",
+             new SaplingBlock(new EmeraldOreTreeSaplingGenerator(),FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+     public static final Block Gold_Ore_Sapling=registerBlock("gold_ore_sapling",
+             new SaplingBlock(new GoldOreTreeSaplingGenerator(),FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+     public static final Block Iron_Ore_Sapling=registerBlock("iron_ore_sapling",
+             new SaplingBlock(new IronOreTreeSaplingGenerator(),FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+     public static final Block Lapis_Lazuli_Ore_Sapling=registerBlock("lapis_lazuli_ore_sapling",
+             new SaplingBlock(new LapisLazuliOreTreeSaplingGenerator(),FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+     public static final Block Nether_Quartz_Ore_Sapling=registerBlock("nether_quartz_ore_sapling",
+             new SaplingBlock(new NetherQuartzOreTreeSaplingGenerator(),FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+     public static final Block Redstone_Ore_Sapling=registerBlock("redstone_ore_sapling",
+             new SaplingBlock(new RedstoneOreTreeSaplingGenerator(),FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
+     public static final Block Sliver_Ore_Sapling=registerBlock("sliver_ore_sapling",
+             new SaplingBlock(new SliverOreTreeSaplingGenerator(),FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()),ModItemGroup.OreTrees);
 
 
 

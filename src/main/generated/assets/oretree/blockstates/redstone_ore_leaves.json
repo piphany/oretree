@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "oretree:block/redstone_ore_leaves"
+    }
+  }
+}

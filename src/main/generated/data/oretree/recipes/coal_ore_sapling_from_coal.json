@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "oretree:sliver_ingot"
+    },
+    "B": {
+      "item": "minecraft:coal"
+    },
+    "C": {
+      "item": "minecraft:oak_sapling"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "ACA"
+  ],
+  "result": {
+    "item": "oretree:coal_ore_sapling"
+  }
+}

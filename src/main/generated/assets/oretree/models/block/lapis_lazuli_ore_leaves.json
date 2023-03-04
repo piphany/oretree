@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "oretree:block/lapis_lazuli_ore_leaves"
+  }
+}

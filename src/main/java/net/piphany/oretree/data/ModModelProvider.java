@@ -18,9 +18,26 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Sliver_Ore);
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Coal_Ore_Leaves);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Copper_Ore_Leaves);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Diamond_Ore_Leaves);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Emerald_Ore_Leaves);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Gold_Ore_Leaves);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Iron_Ore_Leaves);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Lapis_Lazuli_Ore_Leaves);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Nether_Quartz_Ore_Leaves);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Redstone_Ore_Leaves);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Sliver_Ore_Leaves);
 
         blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.Coal_Ore_Sapling,BlockStateModelGenerator.TintType.NOT_TINTED);
-
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.Copper_Ore_Sapling,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.Diamond_Ore_Sapling,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.Emerald_Ore_Sapling,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.Gold_Ore_Sapling,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.Iron_Ore_Sapling,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.Lapis_Lazuli_Ore_Sapling,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.Nether_Quartz_Ore_Sapling,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.Redstone_Ore_Sapling,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.Sliver_Ore_Sapling,BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override

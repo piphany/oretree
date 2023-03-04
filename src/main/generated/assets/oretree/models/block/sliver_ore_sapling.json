@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "oretree:block/sliver_ore_sapling"
+  }
+}

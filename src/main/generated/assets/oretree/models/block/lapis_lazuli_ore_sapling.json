@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "oretree:block/lapis_lazuli_ore_sapling"
+  }
+}

@@ -6,13 +6,16 @@
       "item": "oretree:sliver_ingot"
     },
     "B": {
+      "item": "oretree:sliver_ingot"
+    },
+    "C": {
       "item": "minecraft:oak_sapling"
     }
   },
   "pattern": [
     "AAA",
-    "AAA",
-    "ABA"
+    "ABA",
+    "ACA"
   ],
   "result": {
     "item": "oretree:sliver_ore_sapling"
